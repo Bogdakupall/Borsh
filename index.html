@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Борщ</title>
+  <style>
+    /* Основні стилі */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-image: url('images/rushnik-belorusskii-ornament-3.webp');
+      background-size: cover;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #8B0000;
+    }
+
+    /* Стиль для тексту та зображень */
+    .content {
+      max-width: 800px;
+      margin: 20px auto;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .content img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    /* Список інгредієнтів */
+    .ingredients {
+      border: 2px solid #8B0000;
+      padding: 15px;
+      border-radius: 10px;
+      background: #FFE4E1;
+    }
+
+    .ingredients h2 {
+      color: #8B0000;
+    }
+
+    /* Етапи приготування */
+    .step {
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .step:nth-child(even) {
+      background: #F0FFF0;
+      text-align: right;
+    }
+
+    .step:nth-child(odd) {
+      background: #FFFACD;
+    }
+
+    .step img {
+      max-width: 150px;
+      border-radius: 10px;
+    }
+
+    /* Відео */
+    .video {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .video iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 340px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Заголовок -->
+  <header>
+    <h1>Борщ</h1>
+  </header>
+
+  <!-- Опис страви -->
+  <div class="content">
+    <img src="images/a0860a9c-f946-4934-91ba-881a350971ed.jpeg" alt="Готовий борщ">
+    <p>Борщ — це традиційна українська страва, яка має багатовікову історію. Він відомий своїм насиченим смаком, червоним кольором та великою кількістю інгредієнтів, таких як буряк, капуста, картопля, морква та м'ясо. Історія борщу пов’язана з культурними традиціями Східної Європи.</p>
+  </div>
+
+  <!-- Інгредієнти -->
+  <div class="content ingredients">
+    <h2>Інгредієнти</h2>
+    <ul>
+      <li>1 кг буряка</li>
+      <li>500 г капусти</li>
+      <li>300 г картоплі</li>
+      <li>2 моркви</li>
+      <li>1 цибулина</li>
+      <li>М'ясо (свинина або яловичина) – 500 г</li>
+      <li>Томатна паста</li>
+      <li>Сіль, перець, зелень</li>
+    </ul>
+  </div>
+
+  <!-- Етапи приготування -->
+  <div class="content step">
+    <h2>Крок 1: Підготовка інгредієнтів</h2>
+    <img src="images/images.jfif" alt="Інгредієнти">
+    <p>Промийте м'ясо, очистіть овочі та наріжте їх на шматочки.</p>
+  </div>
+  <div class="content step">
+    <h2>Крок 2: Варіння бульйону</h2>
+    <img src="images/borsh-klasichnij-ukrayinskij-2.jpg" alt="Бульйон">
+    <p>Варіть м'ясо у воді близько 1 години, знімаючи піну.</p>
+  </div>
+  <div class="content step">
+    <h2>Крок 3: Додавання овочів</h2>
+    <img src="images/b.jpg" alt="Овочі в каструлі">
+    <p>Додайте овочі по черзі: буряк, моркву, картоплю, капусту.</p>
+  </div>
+
+  <!-- Відео -->
+  <div class="video">
+    <h2>Відео-рецепт</h2>
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://youtu.be/y5rm_vWPFXA?si=0JeZDjy8pywsMjGN" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  
+</body>
+</html>

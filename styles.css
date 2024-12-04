@@ -1,0 +1,50 @@
+body {
+    background-image: url('images/rushnik-belorusskii-ornament-3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ingredients {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #d9534f;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.steps .step {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.step-image-left {
+    float: left;
+    margin-right: 20px;
+    width: 40%;
+}
+
+.step-image-right {
+    float: right;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.video-section {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+}
